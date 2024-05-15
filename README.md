@@ -1,0 +1,1 @@
+Reservation hotel Microservice est une application basée sur des microservices construite avec REST , gRPC, GraphQL et Kafka en utilisant MongoDB comme base de données. Le projet est composé de deux  entités : Hotel et Reservation .
