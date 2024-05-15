@@ -1,0 +1,83 @@
+syntax = "proto3";
+package hotel;
+
+// Définition du message hotel
+message Hotel {
+  string id = 1;
+  string name = 2;
+  string description = 3;
+  string address = 4;
+  repeated string amenities = 5; // Liste des équipements de l'hôtel
+  repeated Room rooms = 6; // Liste des chambres disponibles
+}
+
+message Room {
+  string id = 1;
+  string type = 2; // Type de chambre (simple, double, suite, etc.)
+  double price_per_night = 3; // Prix par nuit pour cette chambre
+  bool available = 4; // Indique si la chambre est disponible ou non
+}
+
+// Définition des messages de requête et de réponse pour les méthodes
+message GetHotelRequest {
+  string hotel_id = 1;
+}
+
+message GetHotelResponse {
+  Hotel hotel = 1;
+}
+
+message SearchHotelsRequest {
+  string query = 1;
+}
+
+message SearchHotelsResponse {
+  repeated Hotel hotels = 1;
+}
+
+message AddHotelRequest {
+    string name = 1;
+  string description = 2;
+  string address = 3;
+  repeated string amenities = 4; // Liste des équipements de l'hôtel
+  repeated Room rooms = 5; // Liste des chambres disponibles
+
+}
+
+message AddHotelResponse {
+    Hotel hotel = 1;
+}
+
+
+message DeleteHotelRequest {
+  string hotel_id = 1;
+}
+
+message DeleteHotelResponse {
+  string message = 1;
+}
+
+message UpdateHotelRequest {
+  string id = 1;
+  string name = 2;
+  string description = 3;
+  string address = 4;
+  repeated string amenities = 5; // Liste des équipements de l'hôtel
+  repeated Room rooms = 6; 
+}
+
+message UpdateHotelResponse {
+  Hotel hotel = 1;
+}
+
+
+// Définition du service d'hôtels
+service HotelService {
+  rpc GetHotel(GetHotelRequest) returns (GetHotelResponse);
+  rpc SearchHotels(SearchHotelsRequest) returns (SearchHotelsResponse);
+  rpc AddHotel(AddHotelRequest) returns (AddHotelResponse);
+  rpc DeleteHotel(DeleteHotelRequest) returns (DeleteHotelResponse); // Ajout de la méthode de suppression
+  rpc UpdateHotel(UpdateHotelRequest) returns (UpdateHotelResponse); // Nouvelle méthode de mise à jour
+
+  // Ajouter d'autres méthodes au besoin
+}

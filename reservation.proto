@@ -1,0 +1,80 @@
+syntax = "proto3";
+package reservation;
+
+// Définition du message reservation
+message Reservation {
+  string id = 1;
+  string customer_id = 2;
+  string reservation_date = 3;
+  string check_in_date = 4;
+  string check_out_date = 5;
+  string room_type = 6;
+}
+
+// Définition des messages de requête et de réponse pour les méthodes
+message GetReservationRequest {
+  string reservation_id = 1;
+}
+
+message GetReservationResponse {
+  Reservation reservation = 1;
+}
+
+
+
+message SearchReservationsRequest {
+  string query = 1;
+}
+
+message SearchReservationsResponse {
+  repeated Reservation reservations = 1;
+}
+
+
+
+message AddReservationRequest {
+  string customer_id = 1;
+  string reservation_date = 2;
+  string check_in_date = 3;
+  string check_out_date = 4;
+  string room_type = 5;
+}
+
+message AddReservationResponse {
+    Reservation reservation = 1;
+}
+
+
+message DeleteReservationRequest {
+  string reservation_id = 1;
+}
+
+message DeleteReservationResponse {
+  string message = 1;
+}
+
+message UpdateReservationRequest {
+  string id = 1;
+  string customer_id = 2;
+  string reservation_date = 3;
+  string check_in_date = 4;
+  string check_out_date = 5;
+  string room_type = 6;
+}
+
+message UpdateReservationResponse {
+  Reservation reservation = 1;
+}
+
+
+
+
+// Définition du service de réservations
+service ReservationService {
+  rpc GetReservation(GetReservationRequest) returns (GetReservationResponse);
+  rpc SearchReservations(SearchReservationsRequest) returns (SearchReservationsResponse);
+  rpc AddReservation(AddReservationRequest) returns (AddReservationResponse);
+  rpc DeleteReservation(DeleteReservationRequest) returns (DeleteReservationResponse); // Ajout de la méthode de suppression
+  rpc UpdateReservation(UpdateReservationRequest) returns (UpdateReservationResponse); // Nouvelle méthode de mise à jour
+
+}
