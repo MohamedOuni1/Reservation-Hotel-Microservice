@@ -200,5 +200,11 @@ Exécutez la commande suivante pour démarrer le serveur Kafka :
 
 ## 👨‍💻 Auteur du projet
 
-- **[Mohamed Ouni](https://www.github.com/mohamedouni1)**
+- 
+
+## License
+Copyright (c) 2024 **[Mohamed Ouni](https://www.github.com/mohamedouni1)**
+Ce projet est sous licence MIT . Veuillez consulter le fichier [License](https://github.com/MohamedOuni1/Reservation-Hotel-Microservice/blob/main/LICENCE.txt/) pour plus de détails.
+
+
 
