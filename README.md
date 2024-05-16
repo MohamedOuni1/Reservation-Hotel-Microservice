@@ -1,22 +1,22 @@
 
 # Reservation-Hotel-Microservice
 
-Reservation hotel Microservice est une application basée sur des microservices construite avec REST , gRPC, GraphQL et Kafka en utilisant MongoDB comme base de données. Le projet est composé de deux  entités : Hotel et Reservation .
+Reservation hotel Microservice est une application basée sur des microservices construite avec REST , gRPC, GraphQL et Kafka en utilisant MongoDB comme base de données. Le projet est composé de deux  entités : Hotel et Reservation.
 
 
 ## Les Technologies et Les langages utilisés
 
-Node.js est un environnement d'exécution JavaScript côté serveur, qui permet aux développeurs de construire des applications Web et des serveurs. 
+- Node.js est un environnement d'exécution JavaScript côté serveur, qui permet aux développeurs de construire des applications Web et des serveurs. 
 
-Restful est un terme utilisé pour décrire les services Web qui suivent les principes de l'architecture REST (Representational State Transfer).
+- Restful est un terme utilisé pour décrire les services Web qui suivent les principes de l'architecture REST (Representational State Transfer).
 
-gRPC est un framework RPC (Remote Procedure Call) développé par Google, utilisé pour la communication entre services distribués. 
+- gRPC est un framework RPC (Remote Procedure Call) développé par Google, utilisé pour la communication entre services distribués. 
 
-GraphQL est un langage de requête de données développé par Facebook, permettant aux clients de définir la structure des données requises. 
+- GraphQL est un langage de requête de données développé par Facebook, permettant aux clients de définir la structure des données requises. 
 
-MongoDB est un système de gestion de base de données NoSQL, stockant les données sous forme de documents JSON.
+- MongoDB est un système de gestion de base de données NoSQL, stockant les données sous forme de documents JSON.
 
-Kafka est un système de messagerie de type publication/abonnement conçu pour remplacer les courtiers de message traditionnels.
+- Kafka est un système de messagerie de type publication/abonnement conçu pour remplacer les courtiers de message traditionnels.
 
 
 
@@ -63,16 +63,18 @@ Kafka est un système de messagerie de type publication/abonnement conçu pour r
 | `rooms`      | `string` | **Required**|
 
 
-```http
-•	name: le nom de l'hôtel (de type String).
-•	description: la description de l'hôtel (de type String).
-•	address: l'adresse de l'hôtel (de type String).
-•	amenities: une liste des équipements fournis par l'hôtel (une liste de chaînes).
-•	rooms: une liste de sous-documents représentant les chambres disponibles dans l'hôtel. Chaque chambre est représentée par un objet avec les champs suivants :
-•	type: le type de la chambre (de type String).
-•	price_per_night: le prix par nuit de la chambre (de type Number).
-•	available: un indicateur booléen indiquant si la chambre est disponible ou non.
-```
+
+- name: le nom de l'hôtel (de type String).
+- description: la description de l'hôtel (de type String).
+- address: l'adresse de l'hôtel (de type String).
+- amenities: une liste des équipements fournis par l'hôtel (une liste de chaînes).
+- rooms: une liste de sous-documents représentant les chambres disponibles dans l'hôtel. 
+Chaque chambre est représentée par un objet avec les champs suivants :
+
+- type: le type de la chambre (de type String).
+- price_per_night: le prix par nuit de la chambre (de type Number).
+- available: un indicateur booléen indiquant si la chambre est disponible ou non.
+
 
 ## Installation
 Téléchargez tous les fichiers, puis installez les dépendances nécessaires.
