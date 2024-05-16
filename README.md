@@ -42,15 +42,15 @@ Reservation hotel Microservice est une application basée sur des microservices 
 
 
 
-*****customer_id***** : l'identifiant du client effectuant la réservation (de type String).
+- *****customer_id***** : l'identifiant du client effectuant la réservation (de type String).
 
-*****reservation_date*****  : la date à laquelle la réservation a été effectuée (de type String).
+- *****reservation_date*****  : la date à laquelle la réservation a été effectuée (de type String).
 
-*****check_in_date***** : la date d'arrivée prévue pour la réservation (de type String).
+- *****check_in_date***** : la date d'arrivée prévue pour la réservation (de type String).
 
-*****check_out_date***** : la date de départ prévue pour la réservation (de type String).
+- *****check_out_date***** : la date de départ prévue pour la réservation (de type String).
 
-*****room_type***** : le type de chambre réservée (de type String).
+- *****room_type***** : le type de chambre réservée (de type String).
 
 ### Table Hotel
 
@@ -67,23 +67,23 @@ Reservation hotel Microservice est une application basée sur des microservices 
 
 
 
-*****name***** :le nom de l'hôtel (de type String).
+- *****name***** :le nom de l'hôtel (de type String).
 
-*****description*****  : la description de l'hôtel (de type String).
+- *****description*****  : la description de l'hôtel (de type String).
 
-*****adresse***** : l'adresse de l'hôtel (de type String).
+- *****adresse***** : l'adresse de l'hôtel (de type String).
 
-*****amenities***** : une liste des équipements fournis par l'hôtel (une liste de chaînes).
+- *****amenities***** : une liste des équipements fournis par l'hôtel (une liste de chaînes).
 
-*****rooms*****  une liste de sous-documents représentant les chambres disponibles dans l'hôtel. 
+- *****rooms*****  une liste de sous-documents représentant les chambres disponibles dans l'hôtel. 
 
  Chaque chambre est représentée par un objet avec les champs suivants :
 
-*****type***** : le type de la chambre (de type String).
+- *****type***** : le type de la chambre (de type String).
 
-*****price_per_night***** : le prix par nuit de la chambre (de type Number).
+- *****price_per_night***** : le prix par nuit de la chambre (de type Number).
 
-*****available***** : un indicateur booléen indiquant si la chambre est disponible ou non.
+- *****available***** : un indicateur booléen indiquant si la chambre est disponible ou non.
 
 
 ## Installation
