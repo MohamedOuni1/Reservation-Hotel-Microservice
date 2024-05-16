@@ -157,26 +157,26 @@ Voici la liste des ports utilisés par chaque service dans l'architecture :
 
 Pour démarrer le serveur de l'API Gateway, exécutez la commande suivante : 
 
-`nodemon apiGateway.js`.
+`nodemon apiGateway.js`
 
 
 
 Pour démarrer le serveur de gestion des hotels , exécutez la commande suivante :
 
-`nodemon hotelMicroservice.js`.
+`nodemon hotelMicroservice.js`
 
 Pour démarrer le serveur de gestion des reseervations , exécutez la commande suivante :
 
-`nodemon reservationMicroservice.js`.
+`nodemon reservationMicroservice.js`
 
 
 Exécutez la commande suivante pour démarrer le serveur Zookeeper :
 
-`.\bin\windows\zookeeper-server-start.bat config\zookeeper.properties`.
+`.\bin\windows\zookeeper-server-start.bat config\zookeeper.properties`
 
 Exécutez la commande suivante pour démarrer le serveur Kafka :
 
-`.\bin\windows\kafka-server-start.bat config\server.properties`.
+`.\bin\windows\kafka-server-start.bat config\server.properties`
 
 ## Auteur du projet
 
