@@ -97,7 +97,7 @@ Reservation hotel Microservice est une application basée sur des microservices 
 
 - *****rooms*****  une liste de sous-documents représentant les chambres disponibles dans l'hôtel. 
 
- Chaque chambre est représentée par un objet avec les champs suivants :
+ Chaque chambre est représentée par un objet avec les champs suivants 
 
 - *****type***** : le type de la chambre .
 
