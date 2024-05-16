@@ -35,7 +35,7 @@ Reservation hotel Microservice est une application basée sur des microservices 
 
  - ***resolver.js:*** Fonctions de résolution GraphQL pour gérer les requêtes liées aux entités "Hotel" et "Reservation".
  - ***schema.js:*** Fichier de définition du schéma GraphQL qui décrit les requêtes et mutations disponibles pour l'API. 
- - ***apiGateway:*** explique comment les requêtes sont gérées et dirigées vers les différents microservices.
+ - ***apiGateway:***  comment les requêtes clients sont gérées et dirigées vers les différents microservices. 
 
 
 
