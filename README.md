@@ -185,7 +185,7 @@ Pour démarrer le serveur de gestion des hotels , exécutez la commande suivante
 
 `nodemon hotelMicroservice.js`
 
-Pour démarrer le serveur de gestion des reseervations , exécutez la commande suivante :
+Pour démarrer le serveur de gestion des reservations , exécutez la commande suivante :
 
 `nodemon reservationMicroservice.js`
 
