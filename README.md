@@ -6,17 +6,17 @@ Reservation hotel Microservice est une application basée sur des microservices 
 
 ## Les Technologies et Les langages utilisés
 
-- **Node.js** est un environnement d'exécution JavaScript côté serveur, qui permet aux développeurs de construire des applications Web et des serveurs. 
+- 🔵 **Node.js** est un environnement d'exécution JavaScript côté serveur, qui permet aux développeurs de construire des applications Web et des serveurs. 
 
-- **Restful** est un terme utilisé pour décrire les services Web qui suivent les principes de l'architecture REST (Representational State Transfer).
+-  ⚙️ **Restful** est un terme utilisé pour décrire les services Web qui suivent les principes de l'architecture REST (Representational State Transfer).
 
-- **gRPC** est un framework RPC (Remote Procedure Call) développé par Google, utilisé pour la communication entre services distribués. 
+- 🚀 **gRPC** est un framework RPC (Remote Procedure Call) développé par Google, utilisé pour la communication entre services distribués. 
 
-- **GraphQL** est un langage de requête de données développé par Facebook, permettant aux clients de définir la structure des données requises. 
+- 🌐 **GraphQL** est un langage de requête de données développé par Facebook, permettant aux clients de définir la structure des données requises. 
 
-- **MongoDB** est un système de gestion de base de données NoSQL, stockant les données sous forme de documents JSON.
+- 🍃 **MongoDB** est un système de gestion de base de données NoSQL, stockant les données sous forme de documents JSON.
 
-- **Kafka** est un système de messagerie de type publication/abonnement conçu pour remplacer les courtiers de message traditionnels.
+-  📨 **Kafka** est un système de messagerie de type publication/abonnement conçu pour remplacer les courtiers de message traditionnels.
 
 
 
@@ -25,7 +25,7 @@ Reservation hotel Microservice est une application basée sur des microservices 
 
 ## Les tables modéles
 
-### Table Reservation
+### 📅 Table Reservation
 
 
 
@@ -52,7 +52,7 @@ Reservation hotel Microservice est une application basée sur des microservices 
 
 - *****room_type***** : le type de chambre réservée .
 
-### Table Hotel
+### 🏨 Table Hotel
 
 
 
@@ -86,7 +86,7 @@ Reservation hotel Microservice est une application basée sur des microservices 
 - *****available***** : un indicateur booléen indiquant si la chambre est disponible ou non.
 
 
-## Installation
+## 🛠️ Installation
 Téléchargez tous les fichiers, puis installez les dépendances nécessaires.
 
 
@@ -100,7 +100,7 @@ Téléchargez tous les fichiers, puis installez les dépendances nécessaires.
 
 
 
-## Pré-requis :
+## 🔍 Pré-requis :
 
 - Node.js **( 20.11.0 )**
 - GraphQL **( 16.1.0 )**
@@ -109,8 +109,8 @@ Téléchargez tous les fichiers, puis installez les dépendances nécessaires.
 
 
 
-## API Endpoints :
-### Pour Hotel : 
+## 🔗 API Endpoints :
+### 🏨 Pour Hotel : 
 
 
 - **GET /hotel :** Récupère tous les hôtels de la base de données. 
@@ -119,14 +119,14 @@ Téléchargez tous les fichiers, puis installez les dépendances nécessaires.
 - **PUT /hotel/update/:id :** Modifie un hôtel spécifique par son ID. 
 - **DELETE /hotel/:id :** Supprime un hôtel spécifique par son ID. 
 
-### Pour Reservation :
+### 📅 Pour Reservation :
 - **GET /reservation :** Récupère toutes les réservations de la base de données. 
 - **GET /reservation/:id :** Récupère une réservation spécifique par son ID. 
 - **POST /reservation/add :** Crée une nouvelle réservation dans la base de données. 
 - **PUT /reservation/update/:id :** Modifie une réservation spécifique par son ID. 
 - **DELETE /reservation/:id :** Supprime une réservation spécifique par son ID.
 
-# Ports utilisés :
+# 🔌 Ports utilisés :
 
 
 Voici la liste des ports utilisés par chaque service dans l'architecture :
@@ -153,7 +153,7 @@ Voici la liste des ports utilisés par chaque service dans l'architecture :
 
 
 
-## Execution du Projet
+## 🚀 Execution du Projet
 
 Pour démarrer le serveur de l'API Gateway, exécutez la commande suivante : 
 
@@ -178,7 +178,7 @@ Exécutez la commande suivante pour démarrer le serveur Kafka :
 
 `.\bin\windows\kafka-server-start.bat config\server.properties`
 
-## Auteur du projet
+## 👨‍💻 Auteur du projet
 
 - **[Mohamed Ouni](https://www.github.com/mohamedouni1)**
 
