@@ -24,12 +24,12 @@ Reservation hotel Microservice est une application basée sur des microservices 
 
 ## 📁 Description des fichiers 
 
- - ***reservationsModel:***définit la structure et le comportement d'un modèle de "Reservation".
+ - ***reservationsModel:*** définit la structure et le comportement d'un modèle de "Reservation".
  - ***reservation.proto:*** Fichier de définition Protocol Buffers pour le microservice "Reservation".
  - ***reservationMicroservice:*** détaille la gestion des opérations liées aux reservations.
 
  - ***hotel.proto:*** Fichier de définition Protocol Buffers pour le microservice "Hotel".
- - ***hotelsModel:***définit la structure et le comportement d'un modèle de "Hotel" .
+ - ***hotelsModel:*** définit la structure et le comportement d'un modèle de "Hotel" .
  - ***hotelMicroservice:*** détaille la gestion des opérations liées aux hotels.
 
  - ***resolver.js:*** Fonctions de résolution GraphQL pour gérer les requêtes liées aux entités "Hotel" et "Reservation".
