@@ -6,17 +6,17 @@ Reservation hotel Microservice est une application basée sur des microservices 
 
 ## Les Technologies et Les langages utilisés
 
-- Node.js est un environnement d'exécution JavaScript côté serveur, qui permet aux développeurs de construire des applications Web et des serveurs. 
+- **Node.js** est un environnement d'exécution JavaScript côté serveur, qui permet aux développeurs de construire des applications Web et des serveurs. 
 
-- Restful est un terme utilisé pour décrire les services Web qui suivent les principes de l'architecture REST (Representational State Transfer).
+- **Restful** est un terme utilisé pour décrire les services Web qui suivent les principes de l'architecture REST (Representational State Transfer).
 
-- gRPC est un framework RPC (Remote Procedure Call) développé par Google, utilisé pour la communication entre services distribués. 
+- **gRPC** est un framework RPC (Remote Procedure Call) développé par Google, utilisé pour la communication entre services distribués. 
 
-- GraphQL est un langage de requête de données développé par Facebook, permettant aux clients de définir la structure des données requises. 
+- **GraphQL** est un langage de requête de données développé par Facebook, permettant aux clients de définir la structure des données requises. 
 
-- MongoDB est un système de gestion de base de données NoSQL, stockant les données sous forme de documents JSON.
+- **MongoDB** est un système de gestion de base de données NoSQL, stockant les données sous forme de documents JSON.
 
-- Kafka est un système de messagerie de type publication/abonnement conçu pour remplacer les courtiers de message traditionnels.
+- **Kafka** est un système de messagerie de type publication/abonnement conçu pour remplacer les courtiers de message traditionnels.
 
 
 
@@ -113,18 +113,18 @@ Téléchargez tous les fichiers, puis installez les dépendances nécessaires.
 ### Pour Hotel : 
 
 
-- GET /hotel: Récupère tous les hôtels de la base de données. 
-- GET /hotel/:id: Récupère un hôtel spécifique par son ID. 
-- POST /hotel/add: Crée un nouvel hôtel dans la base de données. 
-- PUT /hotel/update/:id: Modifie un hôtel spécifique par son ID. 
-- DELETE /hotel/:id: Supprime un hôtel spécifique par son ID. 
+- **GET /hotel :** Récupère tous les hôtels de la base de données. 
+- **GET /hotel/:id :** Récupère un hôtel spécifique par son ID. 
+- **POST /hotel/add :** Crée un nouvel hôtel dans la base de données. 
+- **PUT /hotel/update/:id :** Modifie un hôtel spécifique par son ID. 
+- **DELETE /hotel/:id :** Supprime un hôtel spécifique par son ID. 
 
-### Pour Reservatopn :
-- GET /reservation: Récupère toutes les réservations de la base de données. 
-- GET /reservation/:id: Récupère une réservation spécifique par son ID. 
-- POST /reservation/add: Crée une nouvelle réservation dans la base de données. 
-- PUT /reservation/update/:id: Modifie une réservation spécifique par son ID. 
-- DELETE /reservation/:id: Supprime une réservation spécifique par son ID.
+### Pour Reservation :
+- **GET /reservation :** Récupère toutes les réservations de la base de données. 
+- **GET /reservation/:id :** Récupère une réservation spécifique par son ID. 
+- **POST /reservation/add :** Crée une nouvelle réservation dans la base de données. 
+- **PUT /reservation/update/:id :** Modifie une réservation spécifique par son ID. 
+- **DELETE /reservation/:id :** Supprime une réservation spécifique par son ID.
 
 # Ports utilisés :
 
