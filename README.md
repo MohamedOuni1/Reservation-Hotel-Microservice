@@ -48,8 +48,8 @@ Reservation hotel Microservice est une application basée sur des microservices 
 
 | Parameter | Type     | Description                |
 | :-------- | :------- | :------------------------- |
-| `id`      | `Number` | **Required**|
-| `customer_id` | `Number` | **Required**|
+| `id`      | `String` | **Required**|
+| `customer_id` | `String` | **Required**|
 | `reservation_date` | `Date` | **Required**|
 | `check_in_date` | `Date` | **Required**|
 | `check_out_date` | `Date` | **Required**|
@@ -77,7 +77,7 @@ Reservation hotel Microservice est une application basée sur des microservices 
 
 | Parameter | Type     | Description                       |
 | :-------- | :------- | :-------------------------------- |
-| `id`      | `Number` | **Required**|
+| `id`      | `String` | **Required**|
 | `name`      | `string` | **Required**|
 | `description`      | `string` | **Required**|
 | `address`      | `string` | **Required**|
