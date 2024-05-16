@@ -102,10 +102,10 @@ Téléchargez tous les fichiers, puis installez les dépendances nécessaires.
 
 ## Pré-requis :
 
-- Node.js ( 20.11.0 )
-- GraphQL ( 16.1.0 )
-- Restful ( 0.4.5 )
-- Kafka   ( 3.7.0 )
+- Node.js **( 20.11.0 )**
+- GraphQL **( 16.1.0 )**
+- Restful **( 0.4.5 )**
+- Kafka   **( 3.7.0 )**
 
 
 
@@ -133,22 +133,22 @@ Voici la liste des ports utilisés par chaque service dans l'architecture :
 
 ### Le service de gestion des hôtels :
 
-- Port utilisé : 50052
-- Protocole : gRPC
+- Port utilisé : **50052**
+- Protocole : **gRPC**
 
 ### Le service de gestion des réservations :
 
-- Port utilisé : 50051
-- Protocole : gRPC
+- Port utilisé : **50051**
+- Protocole : **gRPC**
 
 ### L'API Gateway :
 
-- Port écouté : 3000
-- Protocoles : REST et GraphQL
+- Port écouté : **3000**
+- Protocoles : **REST et GraphQL**
 ### Kafka :
 
-- Port écouté : 9092
-- Protocole : Kafka
+- Port écouté : **9092**
+- Protocole : **Kafka**
 
 
 
@@ -180,5 +180,5 @@ Exécutez la commande suivante pour démarrer le serveur Kafka :
 
 ## Auteur du projet
 
-- [@mohamedouni1](https://www.github.com/mohamedouni1)
+- **[Mohamed Ouni](https://www.github.com/mohamedouni1)**
 
