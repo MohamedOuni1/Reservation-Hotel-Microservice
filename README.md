@@ -172,7 +172,7 @@ Pour démarrer le serveur de gestion des reseervations , exécutez la commande s
 
 Exécutez la commande suivante pour démarrer le serveur Zookeeper :
 
-`\bin\windows\zookeeper-server-start.bat config\zookeeper.properties`.
+`.\bin\windows\zookeeper-server-start.bat config\zookeeper.properties`.
 
 Exécutez la commande suivante pour démarrer le serveur Kafka :
 
